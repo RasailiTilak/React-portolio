@@ -84,3 +84,19 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.about-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.about-section h2, .about-section h3, .about-section p {
+  margin: 10px 0;
+}

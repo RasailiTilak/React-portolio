@@ -1,0 +1,85 @@
+.about {
+    padding: 1px;
+    height: fit-content;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .about-container {
+    padding:1px;
+    height: fit-content;
+    width:33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blanchedalmond;
+    
+  }
+
+  .skill-title{
+    background-color: rgb(187, 179, 154);
+    width: 60%;
+  }
+  
+  .skills-container {
+    background-color:rgb(187, 179, 154);
+    display: flex;
+    flex-wrap: wrap;   
+    width: fit-content;
+    justify-content: left;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .left-side, .right-side {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .line {
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 0;
+    position: relative;
+  }
+  
+  .left-side ul, .right-side ul {
+    list-style-type: disc; /* Use dots for list items */
+    padding-left: 20px; /* Add padding for the list */
+    margin: 0;
+  }
+  
+  .left-side ul li, .right-side ul li {
+    margin: 5px 0; /* Adjust the margin for list items */
+  }  
+  .web-dev-title {
+    margin-top: 125px;
+  }
+  .iot-title {
+    margin-top: 120px;
+  }
+  
+  .programming-title {
+    margin-top: 0px;
+  }
+  
+  .llm-title {
+    margin-top: 250px;
+  }
+  
