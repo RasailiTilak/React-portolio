@@ -15,3 +15,12 @@ Name-portfolio/
 │   ├── App.js
 │   ├── index.js
 ├── package.json
+
+
+## 
+npx create-react-app tilak-portfolio
+cd tilak-portfolio
+npm start
+
+npm install react-router-dom
+
