@@ -3,6 +3,7 @@ react based portfolio website
 
 # project structure
 Name-portfolio/
+``` sh
 ├── public/
 ├── src/
 │   ├── components/
@@ -15,7 +16,7 @@ Name-portfolio/
 │   ├── App.js
 │   ├── index.js
 ├── package.json
-
+```
 
 ## 
 npx create-react-app tilak-portfolio
